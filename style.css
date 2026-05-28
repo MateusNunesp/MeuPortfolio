@@ -160,22 +160,19 @@ header > p {
 }
 
 
-.projetos .sites {
 
+.projetos-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 80px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
 }
 
-
-
-.projetos-containers {
-
+.sites {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
 }
 
 .foto-sites {
